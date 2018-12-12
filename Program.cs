@@ -36,7 +36,7 @@ namespace WindowsFormsApp2
             if (inOK)
             {
                 insert newin = new insert();
-                //login.Close();
+                login.Close();							//version22222
                 Application.Run(newin);
             }
         }
